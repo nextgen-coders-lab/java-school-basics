@@ -1,6 +1,3 @@
-# java-school-basics
-EN/RU lessons &amp; code for learning Java from zero to first projects. Лекции и код от нуля до первого проекта
-
 # NextGen Coders Lab — Java School Basics
 
 **EN:** Open lessons and code examples for learning Java from zero to first projects.  
@@ -23,3 +20,19 @@ Designed for beginners (kids/teens/adults) who want to learn Java step by step w
    ```bash
    git clone https://github.com/nextgen-coders-lab/java-school-basics.git
    cd java-school-basics
+   ```
+4. Open the folder in VS Code and run the sample (`Run` or `Ctrl+F5`).
+
+### Repository layout (will grow)
+```
+module1_basics/
+module2_projects/
+module3_web/
+materials/
+LICENSE
+README.md
+```
+
+### Contributing
+Fork → feature branch → pull request to `main`.  
+See org-wide guidelines: https://github.com/nextgen-coders-lab/.github
