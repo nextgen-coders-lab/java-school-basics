@@ -8,9 +8,9 @@ In this lesson you will:
 
 ---
 
-### Example Program — `First.java`
+### Example Program — `HelloJava01.java`
 ```java
-public class First {
+public class HelloJava01 {
     public static void main(String[] args) {
         // This is your first program in Java
         // println prints the text and moves to a new line
@@ -26,14 +26,14 @@ Hello, Java!
 
 ---
 
-### Common Mistakes (`HiJavaErrors.java`)
+### Common Mistakes (`HelloJavaErrors.java`)
 - Missing semicolon `;` at the end of a statement.  
 - Wrong class or file name (they must match).  
 - Misspelled `System.out.println`.
 
 ---
 
-### Practice Task (`HiJavaFixTask.java`)
+### Practice Task (`HelloJavaFixTask.java`)
 1. Copy the example code into a new file.  
 2. Change the text inside quotes to your own greeting.  
 3. Add one more line that prints your name.  
