@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Second {
+public class HiJava02 {
     public static void main(String[] args) {
         // It's comment. It doesn't compile.
         // Date and Time
