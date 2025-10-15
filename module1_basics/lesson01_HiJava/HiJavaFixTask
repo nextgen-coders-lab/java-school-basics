@@ -1,0 +1,12 @@
+public class HelloWorldFixTask {
+    public static void main(String[] args) {
+
+        // This program should print your first Java message
+        // But it has many mistakes! Fix them all.
+
+        // ❌ Find and fix:
+        public static void main() // wrong place and missing brackets
+        System.out.println(Hello world!)
+        System.out.println("Java is cool")
+    }
+}

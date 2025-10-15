@@ -1,0 +1,29 @@
+ public class HelloWorldErrors {
+    public static void main(String[] args) {
+
+        // ❌ 1. Wrong class name — must match file name
+        // public class helloworld { } // error: class name mismatch
+        // ✅ Correct:
+        System.out.println("Class name must match the file name!");
+
+        // ❌ 2. Missing main method or wrong signature
+        // public static void main() { } // error: main method not found
+        // ✅ Correct: must have String[] args
+        System.out.println("main method must have (String[] args)");
+
+        // ❌ 3. Missing semicolon
+        // System.out.println("Hello") // error: ';' expected
+        System.out.println("Don't forget semicolons at the end!");
+
+        // ❌ 4. Wrong quotes
+        // System.out.println(Hello world); // error: cannot find symbol
+        System.out.println("Use double quotes for text!");
+
+        // ❌ 5. Missing parentheses
+        // System.out.println "Hello"); // error: expected '('
+        System.out.println("Always use parentheses after println.");
+
+        // ✅ Correct version
+        System.out.println("Hello, world!");
+    }
+}
